@@ -37,16 +37,14 @@
   list-style-type: none;
   padding: 0px;
 }
-.nav__links :hover {
-  color: #1f69c9;
-}
-
 .nav__link {
   color: #000000;
   text-decoration: none;
   font-weight: bold;
 }
-
+.nav__link:hover {
+  color: #1f69c9;
+}
 .header__title {
   font-size: 66px;
   line-height: 76px;
@@ -444,7 +442,14 @@ li:nth-of-type(even) {
   line-height: 20px;
   text-decoration: none;
 }
+.footer__column-link:hover {
+  color: #1f69c9;
+}
 
 .footer__copyright {
   margin: 108px 0 0;
+}
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
 }
