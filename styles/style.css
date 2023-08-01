@@ -226,6 +226,9 @@
 }
 .staff {
   padding: 100px 0 140px;
+  background-image: url(../images/staff_picks_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .staff__title {
@@ -233,6 +236,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: #fff;
 }
 
 .staff__subtitle {
@@ -241,15 +245,25 @@
   line-height: 30px;
   font-weight: 400;
   margin: 0;
+  color: #fff;
 }
 
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
-
+.staff__cards {
+  padding: 0;
+  margin: 68px auto 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 760px;
+  gap: 40px;
+}
 .card {
   background-color: #fff;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
+  width: 360px;
+  height: 420px;
 }
 
 .card__content {
@@ -277,6 +291,7 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
+  margin-top: auto;
 }
 
 .membership {
