@@ -22,19 +22,19 @@
           <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
             <li>
-              <a class="nav__link">Events</a>
+              <a href="#to-events" class="nav__link">Events</a>
             </li>
             <li>
-              <a class="nav__link">Staff picks</a>
+              <a href="#to-staff" class="nav__link">Staff picks</a>
             </li>
             <li>
-              <a class="nav__link">Become a member</a>
+              <a href="#to-library" class="nav__link">Become a member</a>
             </li>
             <li>
-              <a class="nav__link">About</a>
+              <a href="#to-about" class="nav__link">About</a>
             </li>
             <li>
-              <a class="nav__link">Contacts</a>
+              <a href="#to-footer" class="nav__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -50,7 +50,9 @@
           class="header__image"
         />
         <div class="header__footer">
-          <a class="header__link">About the library &darr;</a>
+          <a href="#to-library" class="header__link"
+            >About the library &darr;</a
+          >
           <p class="header__address">
             200 Success Avenue, The Town of Triple Peaks
           </p>
@@ -58,7 +60,7 @@
       </header>
 
       <main class="content">
-        <section class="events">
+        <section id="to-events" class="events">
           <div class="events__content">
             <h2 class="events__heading">Upcoming events:</h2>
             <h3 class="events__title">
@@ -139,7 +141,7 @@
           </div>
         </section>
 
-        <section class="staff">
+        <section id="to-staff" class="staff">
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
           <ul class="staff__cards">
@@ -213,7 +215,7 @@
           </ul>
         </section>
 
-        <section class="membership">
+        <section id="to-library" class="membership">
           <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step">
@@ -269,7 +271,7 @@
           </ul>
         </section>
 
-        <section class="about">
+        <section id="to-about" class="about">
           <h2 class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
@@ -293,7 +295,7 @@
           <div class="about__circle"></div>
         </section>
       </main>
-      <footer class="footer">
+      <footer id="to-footer" class="footer">
         <div class="footer__columns">
           <div class="footer__column">
             <img
