@@ -59,7 +59,7 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 532px;
-  margin-top: 32px;
+  margin: 32px 0 0;
 }
 
 .header__image {
@@ -216,8 +216,7 @@
 }
 
 .person__image_size_l {
-  width: 120px;
-  /* I know this value is not the one that is supposed to be in the final version of the project but I unfortunately can not remember the right one since this was a pre written piece of code and the brief said to just uncomment it. There used to be a different value there but I just wanted to play around with it for a bit to see how it affects the code, out of curiosity, and then forgot about this part of code after moving on with the brief. The original value was already written in the commented piece of code and it is not mentioned in the brief the exact value that it should be, so I am not really sure what to change it to */
+  width: 140px;
 }
 
 .person__image_size_m {
