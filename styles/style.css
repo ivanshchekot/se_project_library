@@ -4,7 +4,7 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -19,7 +19,6 @@
 }
 
 .nav {
-  /* Add flex properties here */
   display: flex;
   justify-content: space-between;
 }
@@ -35,31 +34,32 @@
   margin: 8px 0 0;
   column-gap: 20px;
   list-style-type: none;
-  padding: 0px;
+  padding: 0;
 }
+
 .nav__link {
   color: #000000;
   text-decoration: none;
   font-weight: bold;
 }
+
 .nav__link:hover {
   color: #1f69c9;
 }
+
 .header__title {
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
   max-width: 601px;
-  margin-bottom: 0;
-  padding-top: 128px;
+  margin: 128px 0 0;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
-  padding-top: 32px;
   max-width: 532px;
-  margin-top: 0;
+  margin-top: 32px;
 }
 
 .header__image {
@@ -164,7 +164,6 @@
 
 .events__more:hover {
   color: #1f69c9;
-  text-decoration: none;
 }
 
 .events__cover {
@@ -218,6 +217,7 @@
 
 .person__image_size_l {
   width: 120px;
+  /* I know this value is not the one that is supposed to be in the final version of the project but I unfortunately can not remember the right one since this was a pre written piece of code and the brief said to just uncomment it. There used to be a different value there but I just wanted to play around with it for a bit to see how it affects the code, out of curiosity, and then forgot about this part of code after moving on with the brief. The original value was already written in the commented piece of code and it is not mentioned in the brief the exact value that it should be, so I am not really sure what to change it to */
 }
 
 .person__image_size_m {
@@ -267,6 +267,7 @@
   gap: 40px;
   justify-content: center;
 }
+
 .card {
   background-color: #fff;
   border-radius: 6px;
@@ -388,15 +389,16 @@
   left: -91px;
 }
 
-about__paragraph {
+.about__paragraph {
   margin: 0 0 32px;
 }
-about__paragraph:last-child {
+.about__paragraph:last-child {
   margin-bottom: 0px;
 }
+
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: #fff;
   padding: 60px 102px 60px 80px;
 }
@@ -433,15 +435,17 @@ about__paragraph:last-child {
   font-size: 16px;
 }
 
-li:nth-of-type(even) {
+.footer__list-item:nth-of-type(even) {
   margin: 0;
 }
+
 .footer__column-link {
   color: white;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
 }
+
 .footer__column-link:hover {
   color: #c1c1c1;
 }
@@ -452,4 +456,5 @@ li:nth-of-type(even) {
 .footer__social-icon {
   height: 16px;
   width: 16px;
+  margin-right: 8px;
 }
